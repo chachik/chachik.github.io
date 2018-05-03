@@ -1,4 +1,4 @@
 markdown: redcarpet
-baseurl: /chachik
+baseurl: 
 exclude: ['README.md']
  
