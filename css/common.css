@@ -1,0 +1,15 @@
+html {
+    margin: 0;
+    padding: 0;
+
+    font: normal 100%/1.4 Georgia,serif;
+}
+
+.current {
+    background-color: darkblue;
+    color: white
+}
+
+.nav-top {
+    font-size: 1.25rem;
+}

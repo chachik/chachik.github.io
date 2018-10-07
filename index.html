@@ -3,3 +3,14 @@ layout: default
 ---
 
 Home
+
+<h1>Content</h1>
+
+<ol>
+    {% for item in site.data.content %}
+    <li>
+        <a href=""></a>
+        {{item.content}}
+    </li>
+    {% endfor %}
+</ol>
