@@ -2,15 +2,415 @@
 layout: default
 ---
 
-Home
-
-<h1>Content</h1>
-
-<ol>
-    {% for item in site.data.content %}
-    <li>
-        <a href=""></a>
-        {{item.content}}
-    </li>
-    {% endfor %}
-</ol>
+	<div id="wrapper">
+		<header id="header">
+			<div class="container">
+				<div class="header-holder">
+					<a href="#" class="logo">
+						<img src="images/logo.png" width="288" height="80" alt="ENFORS engineering for startups!">
+					</a>
+					<nav class="main-nav">
+						<ul class="nav">
+							<li><a href="#section-1">Home</a></li>
+							<li><a href="#section-2">About</a></li>
+							<li><a href="#section-3">Price</a></li>
+							<li><a href="#section-4">Blog</a></li>
+							<li><a href="#section-5">Contact us</a></li>
+						</ul>
+					</nav>
+					<a href="#" class="nav-opener">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main id="main">
+			<div id="section-1" class="jumbotron parallax-holder">
+				<img class="parallax-img" src="images/jumbotron-bg.jpg" width="1423" height="801" alt="image description">
+				<div class="container">
+					<div class="carousel-slider">
+						<div>
+							<div class="text-wrap display-1">
+								<header class="jumbotron-header">
+									<h1 class="title">ENFORS</h1>
+								</header>
+								<div class="text-holder">
+									<p>The Software Development Power for your Startup!</p>
+								</div>
+							</div>
+							<div class="btn-holder">
+								<a class="btn btn-primary btn-more" href="#">Know More</a>
+							</div>
+						</div>
+						<div>
+							<div class="text-wrap display-1">
+								<header class="jumbotron-header">
+									<h1 class="title">ENFORS</h1>
+								</header>
+								<div class="text-holder">
+									<p>The Software Development Power for your Startup!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="section-differences section">
+				<div class="container">
+					<header class="section-header">
+						<h2 class="title h1">What Sets us Apart</h2>
+					</header>
+					<ul class="differences-list">
+						<li>
+							<div class="title-holder">
+								<div class="image-holder">
+									<img src="images/img-1.png" width="63" height="53" alt="image description">
+								</div>
+								<h3 class="title h4">Specialized for Startups</h3>
+							</div>
+							<div class="text-holder">
+								<p>Our mindset, skills and approach are fully optimized for start-ups. By working together with you we move fast and break things. We believe that 'done' is better than 'perfect'. We craft every release as a micro MVP and use open source solutions. We entirely concentrate on your needs and specifics.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title-holder">
+								<div class="image-holder">
+									<img src="images/img-2.png" width="51" height="52" alt="image description">
+								</div>
+								<h3 class="title h4">Accurate Perception</h3>
+							</div>
+							<div class="text-holder">
+								<p>We understand you. When you ask to make a bird, we don't drive you crazy with a thousand questions regarding its size, weight, speed, color, etc. Instead, we create a reasonable bird and change everything else on the fly.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title-holder">
+								<div class="image-holder">
+									<img src="images/img-3.png" width="46" height="54" alt="image description">
+								</div>
+								<h3 class="title h4">Experience and Proficiency</h3>
+							</div>
+							<div class="text-holder">
+								<p>With each passing year, a single developer becomes able to produce much more value because of an increasing maturity of available tools, frameworks and libraries. That said, in order to leverage the maximum power of state-of-the-art te chnologies, engineers have to be true experts. And so our teams consist only of senior experienced engineers.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title-holder">
+								<div class="image-holder">
+									<img src="images/img-4.png" width="51" height="57" alt="image description">
+								</div>
+								<h3 class="title h4">Lean Development</h3>
+							</div>
+							<div class="text-holder">
+								<p>As we are a team of experts, we can eliminate various chores, routines and management efforts. That means that we have more time to deliver you true value.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title-holder">
+								<div class="image-holder">
+									<img src="images/img-5.png" width="56" height="54" alt="image description">
+								</div>
+								<h3 class="title h4">Curious and Self Challenging</h3>
+							</div>
+							<div class="text-holder">
+								<p>Taking inspiration from the book Start-up Nation, we are building a culture of asking questions, giving opinions and challenging the usual way that things are done.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="section-2" class="section-about-us section parallax-holder">
+				<img class="parallax-img" src="images/section-bg-1.jpg" width="1423" height="949" alt="image description">
+				<div class="container">
+					<header class="section-header">
+						<h2 class="title h1">About us</h2>
+					</header>
+					<div class="text-box">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+					</div>
+				</div>
+			</section>
+			<section id="section-3" class="section-pricing section">
+				<div class="container">
+					<header class="section-header">
+						<h2 class="title h1">Pricing</h2>
+					</header>
+					<ul class="pricing-list">
+						<li class="basic">
+							<div class="pricing-list-box">
+								<div class="card-header">
+									<span class="title">Basic</span>
+									<span class="subtitle">Get to know Typeform</span>
+								</div>
+								<div class="card-body">
+									<div class="text-holder">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+									</div>
+									<ul class="list">
+										<li>00 responses / mo</li>
+										<li>10 fields / typeform</li>
+									</ul>
+								</div>
+							</div>
+							<div class="card-footer">
+								<a href="#" class="btn btn-default">Get Started</a>
+							</div>
+						</li>
+						<li class="standart">
+							<div class="pricing-list-box">
+								<div class="card-header">
+									<span class="title">Standard</span>
+									<span class="subtitle">More power & personalization</span>
+								</div>
+								<div class="card-body">
+									<div class="price-header">
+										<sup>$</sup>
+										<span class="text-amount">28</span>
+										<sup>/monthly</sup>
+									</div>
+									<div class="text-holder">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+									</div>
+									<ul class="list">
+										<li>Unlimited responses</li>
+										<li>Unlimited fields</li>
+									</ul>
+								</div>
+							</div>
+							<div class="card-footer">
+								<a href="#" class="btn btn-default">Get Started</a>
+							</div>
+						</li>
+						<li class="businnes">
+							<div class="pricing-list-box">
+								<div class="card-header">
+									<span class="title">Business</span>
+									<span class="subtitle">Advanced features for brands</span>
+								</div>
+								<div class="card-body">
+									<div class="price-header">
+										<sup>$</sup>
+										<span class="text-amount">48</span>
+										<sup>/monthly</sup>
+									</div>
+									<div class="text-holder">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+									</div>
+									<ul class="list">
+										<li>Unlimited responses</li>
+										<li>Unlimited fields</li>
+									</ul>
+								</div>
+							</div>
+							<div class="card-footer">
+								<a href="#" class="btn btn-default">Get Started</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="section-4" class="section-blog section parallax-holder">
+				<img class="parallax-img" src="images/section-bg-2.jpg" width="1423" height="949" alt="image description">
+				<div class="container">
+					<header class="section-header">
+						<h2 class="title h1">Blog</h2>
+					</header>
+					<div class="post-slider">
+						<div>
+							<article class="post-holder">
+								<a href="#" class="img-holder">
+									<img class="img-cover" src="images/blog-1.jpg" width="353" height="294" alt="image description">
+								</a>
+								<div class="post-body">
+									<div class="post-box">
+										<h3 class="post-title h5">
+											<a href="#">The standard Lorem Ipsum</a>
+										</h3>
+										<div class="post-text">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</div>
+									</div>
+									<div class="post-footer">
+										<div class="like-holder">
+											<i class="icon-like"></i>
+											<span class="like-count">253</span>
+										</div>
+										<a href="#">
+											<time datetime="2017-09-01">1 september 2017</time>
+										</a>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div>
+							<article class="post-holder">
+								<a href="#" class="img-holder">
+									<img class="img-cover" src="images/blog-2.jpg" width="353" height="294" alt="image description">
+								</a>
+								<div class="post-body">
+									<div class="post-box">
+										<h3 class="post-title h5">
+											<a href="#">The standard Lorem Ipsum</a>
+										</h3>
+										<div class="post-text">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</div>
+									</div>
+									<div class="post-footer">
+										<div class="like-holder">
+											<i class="icon-like"></i>
+											<span class="like-count">150</span>
+										</div>
+										<a href="#">
+											<time datetime="2017-12-31">31 December 2017</time>
+										</a>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div>
+							<article class="post-holder">
+								<a href="#" class="img-holder">
+									<img class="img-cover" src="images/blog-3.jpg" width="353" height="294" alt="image description">
+								</a>
+								<div class="post-body">
+									<div class="post-box">
+										<h3 class="post-title h5">
+											<a href="#">The standard Lorem Ipsum</a>
+										</h3>
+										<div class="post-text">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</div>
+									</div>
+									<div class="post-footer">
+										<div class="like-holder">
+											<i class="icon-like"></i>
+											<span class="like-count">432</span>
+										</div>
+										<a href="#">
+											<time datetime="2017-11-16">16 November 2017 </time>
+										</a>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div>
+							<article class="post-holder">
+								<a href="#" class="img-holder">
+									<img class="img-cover" src="images/blog-1.jpg" width="353" height="294" alt="image description">
+								</a>
+								<div class="post-body">
+									<div class="post-box">
+										<h3 class="post-title h5">
+											<a href="#">The standard Lorem Ipsum</a>
+										</h3>
+										<div class="post-text">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</div>
+									</div>
+									<div class="post-footer">
+										<div class="like-holder">
+											<i class="icon-like"></i>
+											<span class="like-count">253</span>
+										</div>
+										<a href="#">
+											<time datetime="2017-09-01">1 september 2017</time>
+										</a>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div>
+							<article class="post-holder">
+								<a href="#" class="img-holder">
+									<img class="img-cover" src="images/blog-2.jpg" width="353" height="294" alt="image description">
+								</a>
+								<div class="post-body">
+									<div class="post-box">
+										<h3 class="post-title h5">
+											<a href="#">The standard Lorem Ipsum</a>
+										</h3>
+										<div class="post-text">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</div>
+									</div>
+									<div class="post-footer">
+										<div class="like-holder">
+											<i class="icon-like"></i>
+											<span class="like-count">150</span>
+										</div>
+										<a href="#">
+											<time datetime="2017-12-31">31 December 2017</time>
+										</a>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="section-5" class="section-contact section">
+				<div class="container">
+					<header class="section-header">
+						<h2 class="title h1">Contact Us</h2>
+					</header>
+					<form class="contact-form">
+						<div class="form-group">
+							<label for="exampleInput1">Hi! What’s your name?*</label>
+							<input id="exampleInput1" type="text">
+						</div>
+						<div class="form-footer">
+							<button class="btn btn-default" type='submit'>done</button>
+							<p class="text-info">press <span>ENTER</span></p>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<div id="footer">
+			<div class="footer-top">
+				<div class="container">
+					<div class="footer-title">
+						<span class="title h3">The Key to Success of your Technology Startup!</span>
+					</div>
+					<div class="holder">
+						<ul class="social-network">
+							<li>
+								<a href="#" class="btn btn-default">
+									<i class="icon-google-plus"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="btn btn-default">
+									<i class="icon-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="btn btn-default">
+									<i class="icon-twitter"></i>
+								</a>
+							</li>
+						</ul>
+						<a href="#" class="logo">
+							<img src="images/logo.png" width="288" height="80" alt="ENFORS engineering for startups!">
+						</a>
+					</div>
+				</div>
+			</div>
+			<footer class="footer-bottom">
+				<div class="container">
+					<div class="info-holder">
+						<div class="copyright">
+							<p><a href="#">CopyRight 2018. ENFORS  Engineering for Startups</a> All Rights Reserved</p>
+						</div>
+						<div class="text-holder">
+							<p>Responsive Web Design By Vortex Global Services</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
