@@ -1122,6 +1122,7 @@ input[type="submit"] {
 
 .footer-bottom .copyright {
 	font-size: .875rem;
+	margin: auto;
 }
 
 .footer-bottom .text-holder {
