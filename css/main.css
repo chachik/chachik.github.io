@@ -557,6 +557,11 @@ th {
 	float: right;
 }
 
+.dot-img {
+	vertical-align: text-bottom;
+	margin-left: 5px;
+}
+
 .slick-slide img {
 	display: block;
 }
@@ -1134,13 +1139,20 @@ input[type="submit"] {
 }
 
 .section-header {
-	text-align: center;
 	margin-bottom: 1.25rem;
 }
 
 .section-header .title {
+	font-family: Kanit;
+	font-style: normal;
 	font-weight: 600;
-	letter-spacing: .04em;
+	line-height: normal;
+	font-size: 64px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	
+	color: #FFFFFF;
+	display: inline-block;
 }
 
 .section-header .title:only-child {
@@ -1169,12 +1181,16 @@ input[type="submit"] {
 }
 
 .section-about-us .text-box {
-	margin: 0 auto;
-	max-width: 995px;
-	text-align: center;
-	line-height: 1.556;
-	letter-spacing: .06em;
-	font-size: .875rem;
+	column-count: 3;
+	column-gap: 50px;
+
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 25px;
+	font-size: 14px;
+	
+	color: #FFFFFF;	
 }
 
 .section-blog .section-header .title {
@@ -2214,6 +2230,10 @@ input[type="submit"] {
 
 	.nav a:after {
 		left: 100%;
+	}
+
+	.section-about-us .text-box {
+		column-count: 1;
 	}
 
 	.footer-top .holder {
