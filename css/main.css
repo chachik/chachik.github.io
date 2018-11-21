@@ -599,7 +599,6 @@ th {
 .social-network {
 	margin: 0;
 	padding: 0;
-	list-style: none;
 }
 
 html {
@@ -659,8 +658,9 @@ h6,
 .h {
 	font-weight: bold;
 	margin: 0 0 .5em;
-	color: #1f1f1f;
-	font-family: "Poppins", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: Kanit;
+	font-style: normal;
+	line-height: normal;
 }
 
 h1,
@@ -1143,16 +1143,15 @@ input[type="submit"] {
 }
 
 .section-header .title {
-	font-family: Kanit;
-	font-style: normal;
 	font-weight: 600;
-	line-height: normal;
 	font-size: 64px;
 	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	
-	color: #FFFFFF;
+	text-transform: uppercase;	
 	display: inline-block;
+}
+
+.dark-section{
+	color: #FFFFFF !important;
 }
 
 .section-header .title:only-child {
@@ -1188,9 +1187,6 @@ input[type="submit"] {
 	font-style: normal;
 	font-weight: normal;
 	line-height: 25px;
-	font-size: 14px;
-	
-	color: #FFFFFF;	
 }
 
 .section-blog .section-header .title {
@@ -1363,39 +1359,15 @@ input[type="submit"] {
 }
 
 .pricing-list > li {
-	border-radius: 5px;
-	text-align: center;
 	padding: .625rem;
-	border: 3px solid #101f51;
-	margin-bottom: .9375rem;
-	box-shadow: 0 0 6.8px 1.2px rgba(16, 31, 81, .13);
-}
-
-.pricing-list .basic {
-	background: #f9fcfc;
-}
-
-.pricing-list .standart {
-	background: #f8fffa;
-	border-color: #267f67;
 }
 
 .pricing-list .card-header {
-	color: #101f51;
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex;
-	letter-spacing: .06em;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	text-transform: uppercase;
 	padding-bottom: .625rem;
-}
-
-.pricing-list .card-header:after {
-	background: #101f51;
 }
 
 .pricing-list .card-header .title {
@@ -1414,22 +1386,9 @@ input[type="submit"] {
 	position: relative;
 }
 
-.pricing-list .card-header:after,
-.pricing-list .card-body:after {
-	left: 50%;
-	bottom: 0;
-	content: "";
-	height: 1px;
-	width: 260px;
-	width: 79.27%;
-	position: absolute;
-	-webkit-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	transform: translateX(-50%);
-}
-
 .pricing-list .card-body {
 	padding: 1.1875rem 0 .4375rem;
+	list-style: square;
 }
 
 .pricing-list .card-body:after {
@@ -1437,10 +1396,14 @@ input[type="submit"] {
 }
 
 .pricing-list .card-body .list {
-	color: #575757;
-	font-weight: 600;
-	line-height: 1.75;
-	letter-spacing: .06em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 22px;
+	font-size: 14px;
+	
+	color: rgba(0, 0, 0, 0.75);
+	
+	opacity: 0.75;
 }
 
 .pricing-list .price-header {
@@ -1560,16 +1523,9 @@ input[type="submit"] {
 }
 
 .btn-default {
-	background-image: -webkit-linear-gradient(45deg, #338b73 0%, #323a70 50%, #338b73 100%);
-	background-image: linear-gradient(45deg, #338b73 0%, #323a70 50%, #338b73 100%);
-	background-size: 200% auto;
-	background-position-x: right;
+	background: #FFA800;
 	color: #fff;
-	border-radius: 3px;
 	padding: 15px 15px 16px;
-	text-transform: uppercase;
-	-webkit-transition: background-position .27s ease-in-out;
-	transition: background-position .27s ease-in-out;
 }
 
 .btn-default:hover {
@@ -1834,7 +1790,6 @@ input[type="submit"] {
 		display: flex;
 		-webkit-box-align: end;
 		-ms-flex-align: end;
-		align-items: flex-end;
 		-webkit-box-pack: justify;
 		-ms-flex-pack: justify;
 		justify-content: space-between;
@@ -1843,10 +1798,6 @@ input[type="submit"] {
 	.pricing-list > li {
 		width: 32%;
 		padding: .9375rem .625rem;
-	}
-
-	.pricing-list .businnes {
-		padding-top: 3.5625rem;
 	}
 
 	.pricing-list .card-header .title {
@@ -1968,7 +1919,7 @@ input[type="submit"] {
 	}
 
 	.section-about-us .text-box {
-		font-size: 1.125rem;
+		font-size: 14px;
 	}
 
 	.jumbotron .container {
