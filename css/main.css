@@ -1356,10 +1356,15 @@ input[type="submit"] {
 
 .pricing-list {
 	overflow: hidden;
+	list-style: none;
 }
 
-.pricing-list > li {
-	padding: .625rem;
+.pricing-list-header {
+	margin-bottom: 10px;
+}
+
+.pricing-list-body {
+	margin-bottom: 20px;
 }
 
 .pricing-list .card-header {
@@ -1367,13 +1372,14 @@ input[type="submit"] {
 	display: -ms-flexbox;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	padding-bottom: .625rem;
 }
 
 .pricing-list .card-header .title {
-	line-height: .737;
-	font-size: 1.25rem;
-	margin-bottom: 1.1875rem;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 40px;
+	font-size: 36px;
 }
 
 .pricing-list .card-header .subtitle {
@@ -1384,11 +1390,6 @@ input[type="submit"] {
 .pricing-list .card-header,
 .pricing-list .card-body {
 	position: relative;
-}
-
-.pricing-list .card-body {
-	padding: 1.1875rem 0 .4375rem;
-	list-style: square;
 }
 
 .pricing-list .card-body:after {
@@ -1404,6 +1405,7 @@ input[type="submit"] {
 	color: rgba(0, 0, 0, 0.75);
 	
 	opacity: 0.75;
+	list-style: none inside url("../images/bullet.svg");
 }
 
 .pricing-list .price-header {
@@ -1423,10 +1425,6 @@ input[type="submit"] {
 	line-height: 1.75;
 	letter-spacing: .06em;
 	margin: 0 auto .9375rem;
-}
-
-.pricing-list .card-footer {
-	padding: 1.25rem 0;
 }
 
 .pricing-list .card-footer .btn {
@@ -1480,8 +1478,6 @@ input[type="submit"] {
 	transition-duration: .27s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
-	display: inline-block;
-	text-transform: uppercase;
 }
 
 .btn-primary {
@@ -1523,14 +1519,21 @@ input[type="submit"] {
 }
 
 .btn-default {
-	background: #FFA800;
-	color: #fff;
-	padding: 15px 15px 16px;
-}
+	width: 120px;
+	height: 50px;
+	display: block;
 
-.btn-default:hover {
-	color: #fff;
-	background-position-x: left;
+	background: #FFA800;
+
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+	padding: 12px 0;
+
+	color: #000000;
 }
 
 .post-holder .img-holder {
@@ -1797,7 +1800,6 @@ input[type="submit"] {
 
 	.pricing-list > li {
 		width: 32%;
-		padding: .9375rem .625rem;
 	}
 
 	.pricing-list .card-header .title {
@@ -1814,10 +1816,6 @@ input[type="submit"] {
 
 	.pricing-list .text-holder {
 		margin-bottom: 1.5rem;
-	}
-
-	.pricing-list .card-footer {
-		padding: 1.875rem 0;
 	}
 
 	.post-body {
@@ -1934,18 +1932,6 @@ input[type="submit"] {
 		width: calc(33.3333% - 10px * 2);
 	}
 
-	.pricing-list > li {
-		padding: 1.25rem .625rem;
-	}
-
-	.pricing-list .card-header .title {
-		font-size: 2.375rem;
-	}
-
-	.pricing-list .card-footer {
-		padding: 2.6875rem 0;
-	}
-
 	.post-box {
 		padding-bottom: 1.5625rem;
 	}
@@ -2033,7 +2019,6 @@ input[type="submit"] {
 
 	.pricing-list > li {
 		width: 29.599%;
-		padding: 2.9375rem .625rem 1.25rem;
 	}
 
 	.post-holder .img-holder {
@@ -2114,10 +2099,6 @@ input[type="submit"] {
 
 	.slick-next {
 		left: calc(100% + 25px);
-	}
-
-	.pricing-list {
-		padding: 0 1.6875rem;
 	}
 }
 
@@ -2208,9 +2189,5 @@ input[type="submit"] {
 
 	.slick-arrow {
 		display: none !important;
-	}
-
-	.pricing-list .card-body {
-		font-size: .875rem;
 	}
 }
