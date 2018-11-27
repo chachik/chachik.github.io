@@ -1372,6 +1372,8 @@ input[type="submit"] {
 	display: -ms-flexbox;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
+
+	margin-right: 30px;
 }
 
 .pricing-list .card-header .title {
@@ -1394,6 +1396,20 @@ input[type="submit"] {
 
 .pricing-list .card-body:after {
 	background: #959595;
+}
+
+.pricing-list .card-body{
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 25px;
+	font-size: 14px;
+	
+	color: #000000;
+	
+	opacity: 0.75;
+
+	margin-right: 30px;
 }
 
 .pricing-list .card-body .list {
