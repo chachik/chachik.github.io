@@ -509,6 +509,7 @@ th {
 	display: block;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 
 .slick-list:focus {
@@ -626,7 +627,6 @@ body {
 
 img {
 	max-width: 100%;
-	height: auto;
 	vertical-align: top;
 }
 
@@ -939,7 +939,6 @@ input[type="submit"] {
 }
 
 .logo {
-	width: 150px;
 	vertical-align: top;
 	display: inline-block;
 }
@@ -1031,9 +1030,14 @@ input[type="submit"] {
 }
 
 .main-nav {
-	font-weight: 500;
-	letter-spacing: .06em;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 27px;
+	font-size: 14px;
 	text-transform: uppercase;
+	
+	color: #FFFFFF;
 }
 
 .nav {
@@ -1045,41 +1049,10 @@ input[type="submit"] {
 	padding: .625rem 0;
 }
 
-.nav li.anchor-active a {
-	color: #267f67;
-}
-
-.nav li.anchor-active a:before,
-.nav li.anchor-active a:after {
-	width: 100%;
-	background: #267f67;
-}
-
 .nav a {
 	position: relative;
 	vertical-align: top;
 	display: inline-block;
-}
-
-.nav a:not(:hover) {
-	color: inherit;
-}
-
-.nav a:hover:before,
-.nav a:hover:after {
-	width: 100%;
-	background: #267f67;
-}
-
-.nav a:before,
-.nav a:after {
-	width: 0;
-	content: "";
-	height: 1px;
-	position: absolute;
-	background: #fff;
-	-webkit-transition: width .27s ease-in-out, background .27s ease-in-out;
-	transition: width .27s ease-in-out, background .27s ease-in-out;
 }
 
 #footer {
@@ -1244,7 +1217,6 @@ input[type="submit"] {
 .jumbotron .text-holder {
 	font-weight: 700;
 	font-family: "Poppins", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
-	max-width: 970px;
 	letter-spacing: .033em;
 }
 
@@ -1691,14 +1663,6 @@ input[type="submit"] {
 		margin-top: 4.9375rem;
 	}
 
-	.header-holder .logo {
-		margin: .625rem .3125rem .625rem 0;
-	}
-
-	.logo {
-		width: 200px;
-	}
-
 	.nav-opener {
 		display: none;
 	}
@@ -1713,7 +1677,6 @@ input[type="submit"] {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
-		color: #000;
 	}
 
 	.nav li {
@@ -1724,15 +1687,6 @@ input[type="submit"] {
 		display: -ms-inline-flexbox;
 		display: inline-flex;
 		padding: 0 .625rem;
-	}
-
-	.nav li.anchor-active {
-		background: #f9f9f9;
-	}
-
-	.nav a:before,
-	.nav a:after {
-		content: none;
 	}
 
 	.footer-top {
@@ -1904,10 +1858,6 @@ input[type="submit"] {
 		margin: .625rem .625rem .625rem 0;
 	}
 
-	.logo {
-		width: 288px;
-	}
-
 	.nav li {
 		padding: 0 .9375rem;
 	}
@@ -2065,9 +2015,6 @@ input[type="submit"] {
 		margin-top: 6.75rem;
 	}
 
-	.header-holder .logo {
-		margin: .625rem 1.4375rem .75rem;
-	}
 
 	.nav li:last-of-type {
 		padding-right: .1875rem;
