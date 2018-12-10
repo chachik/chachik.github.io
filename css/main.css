@@ -563,10 +563,6 @@ th {
 	margin-left: 5px;
 }
 
-.slick-slide img {
-	display: block;
-}
-
 .slick-slide.slick-loading img {
 	display: none;
 }
@@ -708,7 +704,7 @@ p {
 
 p:last-of-type,
 p:only-child {
-	margin-bottom: 0 !important;
+	margin-bottom: 0;
 }
 
 form,
@@ -1115,6 +1111,23 @@ input[type="submit"] {
 	display: inline-block;
 }
 
+.slick-slider .title {
+	display: inline-block;
+	margin-top: 100px;
+	margin-bottom: 140px;
+
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 77px;
+	font-size: 64px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+
 .dark-section{
 	color: #FFFFFF !important;
 }
@@ -1499,6 +1512,8 @@ input[type="submit"] {
 	width: 120px;
 	height: 50px;
 	display: block;
+	margin-top: 36px;
+	margin-bottom: 36px;
 
 	background: #FFA800;
 
@@ -1509,6 +1524,7 @@ input[type="submit"] {
 	font-size: 14px;
 	text-align: center;
 	padding: 12px 0;
+	text-decoration: none;
 
 	color: #000000;
 }
@@ -1926,10 +1942,6 @@ input[type="submit"] {
 		margin-bottom: 2.8125rem;
 	}
 
-	.section-pricing {
-		padding: 4.625rem 0 4.8125rem;
-	}
-
 	.section-pricing .section-header {
 		margin-bottom: 3.6875rem;
 	}
@@ -1953,6 +1965,16 @@ input[type="submit"] {
 
 	.slick-slider .slick-slide {
 		padding: 0 1.5625rem;
+	}
+
+	.slick-slide .text-box p {
+		font-family: Heebo;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 25px;
+		font-size: 14px;
+		
+		color: #FFFFFF;
 	}
 
 	.differences-list {
