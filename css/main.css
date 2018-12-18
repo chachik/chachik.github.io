@@ -46,6 +46,11 @@ summary {
 	display: block;
 }
 
+#section-1 {
+	background-color: #0C1011;
+	z-index: -2;
+}
+
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
@@ -501,6 +506,9 @@ th {
 	-ms-touch-action: pan-y;
 	touch-action: pan-y;
 	-webkit-tap-highlight-color: transparent;
+	background-image: url("../images/infinity.svg");
+	background-position: 100% 100%; 
+	z-index: -1;
 }
 
 .slick-list {
