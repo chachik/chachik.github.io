@@ -48,7 +48,7 @@ summary {
 
 #section-1 {
 	background-color: #0C1011;
-	z-index: -2;
+	z-index: -10;
 }
 
 /**
@@ -508,7 +508,7 @@ th {
 	-webkit-tap-highlight-color: transparent;
 	background-image: url("../images/infinity.svg");
 	background-position: 100% 100%; 
-	z-index: -1;
+	z-index: 10;
 }
 
 .slick-list {
@@ -1197,6 +1197,7 @@ input[type="submit"] {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	z-index: 100;
 }
 
 .jumbotron .container {
