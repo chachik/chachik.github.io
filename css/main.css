@@ -48,7 +48,13 @@ summary {
 
 #section-1 {
 	background-color: #0C1011;
-	z-index: -10;
+	/* z-index: -10; */
+}
+
+.infinity {
+	background-image: url("../images/infinity.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /**
@@ -505,9 +511,6 @@ th {
 	-ms-touch-action: pan-y;
 	touch-action: pan-y;
 	-webkit-tap-highlight-color: transparent;
-	background-image: url("../images/infinity.svg");
-	background-position: 100% 100%; 
-	z-index: 10;
 }
 
 .slick-list {
@@ -936,6 +939,10 @@ input[type="submit"] {
 
 .logo img {
 	width: 100%;
+}
+
+.lang {
+	margin-left: 20px;
 }
 
 .nav-opener {
@@ -1396,6 +1403,7 @@ input[type="submit"] {
 }
 
 .pricing-list .card-body .list {
+	font-family: Lato;
 	font-style: normal;
 	font-weight: normal;
 	line-height: 22px;
@@ -1403,7 +1411,6 @@ input[type="submit"] {
 	
 	color: rgba(0, 0, 0, 0.75);
 	
-	opacity: 0.75;
 	list-style: none inside url("../images/bullet.svg");
 }
 
@@ -1424,10 +1431,6 @@ input[type="submit"] {
 	line-height: 1.75;
 	letter-spacing: .06em;
 	margin: 0 auto .9375rem;
-}
-
-.pricing-list .card-footer .btn {
-	min-width: 166px;
 }
 
 .social-network {
@@ -1528,7 +1531,7 @@ input[type="submit"] {
 
 	font-family: Heebo;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: bold;
 	line-height: 25px;
 	font-size: 14px;
 	text-align: center;
