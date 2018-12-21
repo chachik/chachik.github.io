@@ -535,9 +535,9 @@ function initSlickCarousel() {
 					itemHeight: item.height
 				});
 
-				item.$el.css({
+				if (item.$el.attr('id') != "dots2") {
 					backgroundSize: Math.round(styles.width) + 'px ' + Math.round(styles.height) + 'px'
-				});
+				}
 
 				this.calculateScroll(i);
 			},
@@ -598,12 +598,21 @@ function initSlickCarousel() {
 				this.imageLoaded($image, function() {
 					var imageRatio = this.getRatio($image);
 
-					$el.css({
-						backgroundImage: 'url(' + $image.attr('src') + ')',
-						backgroundRepeat: 'no-repeat',
-						backgroundAttachment: !isTouchDevice ? 'fixed' : 'scroll',
-						backgroundSize: 'cover'
-					});
+					if ($el.attr('id') != "dots2") {
+						$el.css({
+							backgroundImage: 'url(' + $image.attr('src') + ')',
+							backgroundRepeat: 'no-repeat',
+							backgroundAttachment: !isTouchDevice ? 'fixed' : 'scroll',
+							backgroundSize: 'cover'
+						});
+					} else {
+						$el.css({
+							backgroundImage: 'url(' + $image.attr('src') + ')',
+							backgroundRepeat: 'repeat',
+							backgroundAttachment: !isTouchDevice ? 'fixed' : 'scroll',
+						});
+					}
+
 
 					$image.remove();
 

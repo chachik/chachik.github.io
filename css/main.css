@@ -899,8 +899,15 @@ input[type="submit"] {
 	position: absolute;
 }
 
+.parallax-holder .parallax-img2 {
+	width: auto;
+	height: auto;
+	position: absolute;
+	background-position: center;
+}
+
 .is-touch-device {
-	background-size: cover;
+	/* background-size: cover; */
 	background-position: 50% 50%;
 }
 
