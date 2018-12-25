@@ -1174,7 +1174,6 @@ input[type="submit"] {
 }
 
 .section {
-	overflow: hidden;
 	position: relative;
 	padding: 1.5625rem 0;
 }
@@ -1349,6 +1348,24 @@ input[type="submit"] {
 	letter-spacing: .04em;
 	font-size: .875rem;
 	font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.section-dots {
+	width: 54.7%;
+	height: 107px;
+	background-image: url("../images/services-dots.svg");
+	background-repeat: repeat;
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+
+.section-enfors {
+	width: 50%;
+	position: absolute;
+	top: -50px;
+	right: 0;
+	z-index: 100;
 }
 
 .pricing-list {
