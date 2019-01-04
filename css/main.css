@@ -51,6 +51,24 @@ summary {
 	/* z-index: -10; */
 }
 
+.blog-footer {
+	margin-top: 60px;
+	display: flex;
+}
+
+.blog-footer a {
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 27px;
+	font-size: 14px;
+	text-decoration: none;
+
+	display: flex;
+
+	color: #FFFFFF;
+}
+
 .infinity {
 	background-image: url("../images/infinity.svg");
     background-repeat: no-repeat;
@@ -534,6 +552,8 @@ th {
 .slick-slider .slick-list {
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
+	display: flex;
+    float: left;
 }
 
 .slick-track {
@@ -1574,7 +1594,6 @@ input[type="submit"] {
 
 .post-body {
 	background: #fff;
-	padding-top: 1.25rem;
 }
 
 .post-box {
@@ -1587,21 +1606,40 @@ input[type="submit"] {
 	margin-bottom: .625rem;
 }
 
-.post-box .post-title a:not(:hover) {
-	color: inherit;
+.post-box .post-title a {
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 40px;
+	font-size: 36px;
+	text-decoration: none;
+	
+	color: #000000;
 }
 
 .post-box .post-text {
-	line-height: 1.625;
-	color: #1f1f1f;
-	letter-spacing: .02em;
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 25px;
+	font-size: 14px;
+	
+	color: #000000;
+	
+	opacity: 0.75;
+
+	margin: 40px 0;
 }
 
-.post-box,
-.post-footer {
-	padding-left: .9375rem;
-	padding-right: .9375rem;
-	font-size: .75rem;
+.post-box a {
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 25px;
+	font-size: 14px;
+	text-decoration: none;
+	
+	color: #000000;
 }
 
 .post-footer {
@@ -1821,10 +1859,6 @@ input[type="submit"] {
 		margin-bottom: 1.5rem;
 	}
 
-	.post-body {
-		padding-top: 1.75rem;
-	}
-
 	.post-box {
 		padding-bottom: 1.25rem;
 	}
@@ -1983,7 +2017,6 @@ input[type="submit"] {
 	}
 
 	.section-blog {
-		padding: 4.4375rem 0 8.4375rem;
 		background: #041F45;
 	}
 
@@ -2000,7 +2033,7 @@ input[type="submit"] {
 	}
 
 	.slick-slider .slick-slide {
-		padding: 0 1.5625rem;
+		padding: 0 1.5625rem 0 0;
 	}
 
 	.slick-slide .text-box p {
@@ -2037,7 +2070,7 @@ input[type="submit"] {
 
 	.post-box,
 	.post-footer {
-		padding-left: 1.25rem;
+		padding: 40px;
 	}
 
 	.post-footer {
