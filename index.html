@@ -256,28 +256,34 @@ layout: default
 						</div>
 					</div>
 					<div class="blog-footer">
-						<a href="#">
-							View all
-						</a>
-						<a href="#">
-							2 in 38
-						</a>
+						<div>
+							<a href="#">
+								View all
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								2 in 38
+							</a>
+						</div>
 					</div>
 				</div>
 			</section>
 			<section id="section-5" class="section-contact section">
 				<div class="container">
 					<header class="section-header">
-						<h2 class="title h1">Contact Us</h2>
+						<h2 class="title h1">Enfors your</h2>
+						<h2 class="title h1">startup</h2>
+						<img class="dot-img" src="images/dot.svg">
 					</header>
 					<form class="contact-form">
 						<div class="form-group">
-							<label for="exampleInput1">Hi! What’s your name?*</label>
-							<input id="exampleInput1" type="text">
+							<input id="email" type="text" placeholder="Your e-mail">
+							<input id="name" type="text" placeholder="Your full name">
+							<textarea id="description" placeholder="Tell us more about how we can help you"></textarea>
 						</div>
 						<div class="form-footer">
-							<button class="btn btn-default" type='submit'>done</button>
-							<p class="text-info">press <span>ENTER</span></p>
+							<button class="btn btn-default" type='submit'>Send</button>
 						</div>
 					</form>
 				</div>
@@ -286,10 +292,10 @@ layout: default
 		<div id="footer">
 			<div class="footer-top">
 				<div class="container">
+					{% comment %}
 					<div class="footer-title">
 						<span class="title h3">The Key to Success of your Technology Startup!</span>
 					</div>
-					{% comment %}
 					<div class="holder">
 						<ul class="social-network">
 							<li>
