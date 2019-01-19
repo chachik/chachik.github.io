@@ -138,7 +138,7 @@ summary {
 .infinity {
 	background-image: url("../images/infinity.svg");
     background-repeat: no-repeat;
-    background-position: center;
+	background-position: center;
 }
 
 /**
@@ -645,7 +645,6 @@ th {
 }
 
 .slick-slide {
-	float: left;
 	height: 100%;
 	min-height: 1px;
 	display: none;
@@ -670,6 +669,7 @@ th {
 
 .slick-initialized .slick-slide {
 	display: block;
+	width: 100%;
 }
 
 .slick-loading .slick-slide {
@@ -1669,7 +1669,7 @@ input[type="submit"] {
 
 	font-family: Heebo;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 500;
 	line-height: 25px;
 	font-size: 14px;
 	text-align: center;
@@ -1914,8 +1914,6 @@ input[type="submit"] {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-align: end;
-		-ms-flex-align: end;
 		-webkit-box-pack: justify;
 		-ms-flex-pack: justify;
 		justify-content: space-between;
