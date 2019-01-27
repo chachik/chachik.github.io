@@ -139,6 +139,7 @@ summary {
 	background-image: url("../images/infinity.svg");
     background-repeat: no-repeat;
 	background-position: center;
+	background-size: contain;
 }
 
 /**
@@ -730,8 +731,8 @@ img {
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
 	width: 100%;
 	max-width: 1280px;
 	margin-bottom: 36px;
@@ -1028,6 +1029,17 @@ input[type="submit"] {
 	margin-top: 3.4375rem;
 }
 
+.slick-slide .text-box p {
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 21px;
+	font-size: 12px;
+	
+	color: #FFFFFF;
+}
+
+
 .header-holder {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1053,7 +1065,7 @@ input[type="submit"] {
 }
 
 .nav-opener {
-	width: 40px;
+	width: 25px;
 	height: 25px;
 	position: relative;
 	display: inline-block;
@@ -1064,6 +1076,7 @@ input[type="submit"] {
 	transition: -webkit-transform .27s ease-in-out;
 	transition: transform .27s ease-in-out;
 	transition: transform .27s ease-in-out, -webkit-transform .27s ease-in-out;
+	background-color: #FFA800;
 }
 
 .nav-active .nav-opener {
@@ -1081,29 +1094,25 @@ input[type="submit"] {
 	transition-duration: .27s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
-	left: 0;
-	width: 100%;
-	height: 3px;
+	width: 60%;
+	height: 1px;
 	display: block;
 	border-radius: 0;
 	position: absolute;
-	background: #267f67;
+	background: #ffffff;
 	-webkit-transform: rotate(0deg);
 	-ms-transform: rotate(0deg);
 	transform: rotate(0deg);
-}
-
-.nav-active .nav-opener span {
-	background: #000;
+	left: 19%;
 }
 
 .nav-opener span:nth-child(1) {
-	top: 0;
+	top: 5px;
 }
 
 .nav-active .nav-opener span:nth-child(1) {
 	width: 0;
-	top: 9px;
+	top: 5px;
 	left: 50%;
 }
 
@@ -1116,21 +1125,27 @@ input[type="submit"] {
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
+	width: 80%;
+	left: 8%;
+	top: 12px;
 }
 
 .nav-active .nav-opener span:nth-child(3) {
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
+	width: 80%;
+	left: 8%;
+	top: 12px;
 }
 
 .nav-opener span:nth-child(4) {
-	top: 22px;
+	top: 18px;
 }
 
 .nav-active .nav-opener span:nth-child(4) {
 	width: 0;
-	top: 9px;
+	top: 18px;
 	left: 50%;
 }
 
@@ -1263,8 +1278,9 @@ input[type="submit"] {
 	font-family: Kanit;
 	font-style: normal;
 	font-weight: 600;
-	line-height: 77px;
-	font-size: 64px;
+	line-height: 43px;
+	font-size: 36px;
+
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 
@@ -1660,8 +1676,8 @@ input[type="submit"] {
 }
 
 .btn-default {
-	width: 120px;
-	height: 50px;
+	width: 82px;
+	height: 27px;
 	display: block;
 	margin-top: 36px;
 
@@ -1670,10 +1686,9 @@ input[type="submit"] {
 	font-family: Heebo;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 25px;
-	font-size: 14px;
+	line-height: 27px;
+	font-size: 12px;
 	text-align: center;
-	padding: 12px 0;
 	text-decoration: none;
 
 	color: #000000;
@@ -1808,6 +1823,17 @@ input[type="submit"] {
 		font-size: 1rem;
 	}
 
+	.slick-slider .title {
+		line-height: 57px;
+		font-size: 50px;
+	}
+
+	.btn-default {
+		width: 100px;
+		height: 39px;
+		line-height: 39px;
+	}	
+	
 	.display-1 {
 		font-size: 2.375rem;
 	}
@@ -1979,6 +2005,11 @@ input[type="submit"] {
 		font-size: 3.3125rem;
 	}
 
+	.slick-slider .title {
+		line-height: 57px;
+		font-size: 50px;
+	}
+
 	.contact-form .form-group:before {
 		top: 2px;
 	}
@@ -2053,6 +2084,18 @@ input[type="submit"] {
 }
 
 @media (min-width: 1200px) {
+	.slick-slider .title {
+		line-height: 77px;
+		font-size: 64px;	
+	}
+	
+	.btn-default {
+		width: 120px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 14px;	
+	}
+		
 	.form-footer {
 		padding: 0 3px;
 	}
@@ -2117,13 +2160,8 @@ input[type="submit"] {
 	}
 
 	.slick-slide .text-box p {
-		font-family: Heebo;
-		font-style: normal;
-		font-weight: normal;
 		line-height: 25px;
 		font-size: 14px;
-		
-		color: #FFFFFF;
 	}
 
 	.differences-list {
@@ -2235,6 +2273,10 @@ input[type="submit"] {
 		visibility: visible;
 	}
 
+	.nav-active .lang {
+		visibility: hidden;
+	}
+	
 	.nav {
 		overflow: hidden;
 	}
@@ -2263,6 +2305,10 @@ input[type="submit"] {
 		left: 100%;
 	}
 
+	.nav li.anchor-active a {
+		color: #267f67;
+	}
+	
 	.section-about-us .text-box {
 		column-count: 1;
 	}
