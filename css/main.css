@@ -657,7 +657,8 @@ th {
 
 .dot-img {
 	vertical-align: text-bottom;
-	margin-left: 5px;
+	margin-left: 0;
+	width: 7px;
 }
 
 .slick-slide.slick-loading img {
@@ -1264,7 +1265,7 @@ input[type="submit"] {
 
 .section-header .title {
 	font-weight: 600;
-	font-size: 64px;
+	font-size: 36px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;	
 	display: inline-block;
@@ -1828,12 +1829,21 @@ input[type="submit"] {
 		font-size: 50px;
 	}
 
+	.section-header .title {
+		font-size: 45px;
+	}
+
 	.btn-default {
 		width: 100px;
 		height: 39px;
 		line-height: 39px;
 	}	
-	
+
+	.dot-img {
+		margin-left: 2px;
+		width: 11px;
+	}
+
 	.display-1 {
 		font-size: 2.375rem;
 	}
@@ -2010,6 +2020,10 @@ input[type="submit"] {
 		font-size: 50px;
 	}
 
+	.section-header .title {
+		font-size: 54px;
+	}
+
 	.contact-form .form-group:before {
 		top: 2px;
 	}
@@ -2088,14 +2102,23 @@ input[type="submit"] {
 		line-height: 77px;
 		font-size: 64px;	
 	}
-	
+
+	.section-header .title {
+		font-size: 64px;
+	}
+
 	.btn-default {
 		width: 120px;
 		height: 50px;
 		line-height: 50px;
 		font-size: 14px;	
 	}
-		
+	
+	.dot-img {
+		margin-left: 5px;
+		width: 15px;
+	}
+
 	.form-footer {
 		padding: 0 3px;
 	}
