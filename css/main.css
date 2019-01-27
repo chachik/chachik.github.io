@@ -1686,10 +1686,9 @@ input[type="submit"] {
 	font-family: Heebo;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 8px;
+	line-height: 27px;
 	font-size: 12px;
 	text-align: center;
-	padding: 12px 0;
 	text-decoration: none;
 
 	color: #000000;
@@ -1832,6 +1831,7 @@ input[type="submit"] {
 	.btn-default {
 		width: 100px;
 		height: 39px;
+		line-height: 39px;
 	}	
 	
 	.display-1 {
@@ -2092,7 +2092,7 @@ input[type="submit"] {
 	.btn-default {
 		width: 120px;
 		height: 50px;
-		line-height: 25px;
+		line-height: 50px;
 		font-size: 14px;	
 	}
 		
@@ -2305,6 +2305,10 @@ input[type="submit"] {
 		left: 100%;
 	}
 
+	.nav li.anchor-active a {
+		color: #267f67;
+	}
+	
 	.section-about-us .text-box {
 		column-count: 1;
 	}
