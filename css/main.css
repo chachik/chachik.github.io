@@ -690,8 +690,8 @@ th {
 
 .nav,
 .differences-list,
-.pricing-list,
-.pricing-list .card-body .list,
+.product-list,
+.product-list .card-body .list,
 .social-network {
 	margin: 0;
 	padding: 0;
@@ -1502,27 +1502,30 @@ input[type="submit"] {
 	right: 10px;
 }
 
-.pricing-list {
+.product-list {
 	overflow: hidden;
 	list-style: none;
+	position: relative;
+	padding-bottom: 80px;
 }
 
-.pricing-list-header {
+.product-list-header {
 	margin-bottom: 10px;
 }
 
-.pricing-list-body {
+.product-list-body {
 	margin-bottom: 20px;
 }
 
-.pricing-list .card-header {
+.product-list .card-header {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
+	margin-bottom: 20px;
 }
 
-.pricing-list .card-header .title {
+.product-list .card-header .title {
 	font-family: Kanit;
 	font-style: normal;
 	font-weight: normal;
@@ -1530,21 +1533,21 @@ input[type="submit"] {
 	font-size: 36px;
 }
 
-.pricing-list .card-header .subtitle {
+.product-list .card-header .subtitle {
 	line-height: 1.867;
 	font-size: .875rem;
 }
 
-.pricing-list .card-header,
-.pricing-list .card-body {
+.product-list .card-header,
+.product-list .card-body {
 	position: relative;
 }
 
-.pricing-list .card-body:after {
+.product-list .card-body:after {
 	background: #959595;
 }
 
-.pricing-list .card-body{
+.product-list .card-body{
 	font-family: Heebo;
 	font-style: normal;
 	font-weight: normal;
@@ -1558,7 +1561,7 @@ input[type="submit"] {
 	margin-right: 30px;
 }
 
-.pricing-list .card-body .list {
+.product-list .card-body .list {
 	font-family: Lato;
 	font-style: normal;
 	font-weight: normal;
@@ -1570,23 +1573,28 @@ input[type="submit"] {
 	list-style: none inside url("../images/bullet.svg");
 }
 
-.pricing-list .price-header {
+.product-list .price-header {
 	color: #2c2d2e;
 	line-height: 1.2;
 	letter-spacing: .01em;
 	font-size: 2.125rem;
 }
 
-.pricing-list .price-header .text-amount {
+.product-list .price-header .text-amount {
 	font-size: 2.625rem;
 }
 
-.pricing-list .text-holder {
+.product-list .text-holder {
 	width: 95%;
 	color: #7c7c7c;
 	line-height: 1.75;
 	letter-spacing: .06em;
 	margin: 0 auto .9375rem;
+}
+
+.product-list .card-footer {
+	position: absolute;
+	bottom: 0;
 }
 
 .social-network {
@@ -1946,7 +1954,7 @@ input[type="submit"] {
 		font-size: .9375rem;
 	}
 
-	.pricing-list {
+	.product-list {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -1955,23 +1963,23 @@ input[type="submit"] {
 		justify-content: space-between;
 	}
 
-	.pricing-list > li {
+	.product-list > li {
 		width: 32%;
 	}
 
-	.pricing-list .card-header .title {
+	.product-list .card-header .title {
 		font-size: 1.625rem;
 	}
 
-	.pricing-list .card-header .subtitle {
+	.product-list .card-header .subtitle {
 		font-size: .9375rem;
 	}
 
-	.pricing-list .price-header {
+	.product-list .price-header {
 		margin-bottom: 17px;
 	}
 
-	.pricing-list .text-holder {
+	.product-list .text-holder {
 		margin-bottom: 1.5rem;
 	}
 
@@ -2155,7 +2163,7 @@ input[type="submit"] {
 		margin-bottom: 2.8125rem;
 	}
 
-	.section-pricing .section-header {
+	.section-product .section-header {
 		margin-bottom: 3.6875rem;
 	}
 
@@ -2197,7 +2205,7 @@ input[type="submit"] {
 		width: calc(33.3333% - 18px * 2);
 	}
 
-	.pricing-list > li {
+	.product-list > li {
 		width: 29.599%;
 	}
 
