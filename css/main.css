@@ -1485,7 +1485,7 @@ input[type="submit"] {
 }
 
 .section-dots {
-	width: 54.7%;
+	width: 39.5%;
 	height: 107px;
 	background-image: url("../images/services-dots.svg");
 	background-repeat: repeat;
@@ -1973,6 +1973,11 @@ input[type="submit"] {
 	.post-footer {
 		font-size: .875rem;
 	}
+
+	.section-dots {
+		width: 45%;
+	}
+	
 }
 
 @media (min-width: 1024px) {
@@ -2193,13 +2198,16 @@ input[type="submit"] {
 	.post-footer {
 		padding-right: 1.25rem;
 	}
+
+	.section-dots {
+		width: 54.7%;
+	}
 }
 
 @media (min-width: 1423px) {
 	#header + #main {
 		margin-top: 6.75rem;
 	}
-
 
 	.nav li:last-of-type {
 		padding-right: .1875rem;
