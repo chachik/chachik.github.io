@@ -1327,6 +1327,10 @@ input[type="submit"] {
 	line-height: 25px;
 }
 
+.section-blog {
+	background: #041F45;
+}
+
 .section-blog .section-header .title {
 	color: #fff;
 }
@@ -2176,10 +2180,6 @@ input[type="submit"] {
 
 	.section-product .section-header {
 		margin-bottom: 3.6875rem;
-	}
-
-	.section-blog {
-		background: #041F45;
 	}
 
 	.section-blog .section-header {
