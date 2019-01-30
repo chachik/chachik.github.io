@@ -1521,7 +1521,7 @@ input[type="submit"] {
 	display: -ms-flexbox;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	margin-bottom: 20px;
+	margin: 0 30px 20px 0;
 }
 
 .product-list .card-header .title {
