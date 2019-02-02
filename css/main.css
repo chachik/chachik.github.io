@@ -1561,7 +1561,7 @@ input[type="submit"] {
 	
 	opacity: 0.75;
 
-	margin-right: 30px;
+	margin-right: 10px;
 }
 
 .product-list .card-body .list {
@@ -2094,7 +2094,7 @@ input[type="submit"] {
 	}
 
 	.section-about-us .text-box {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.jumbotron .container {
@@ -2179,7 +2179,7 @@ input[type="submit"] {
 	}
 
 	.section-product .section-header {
-		margin-bottom: 3.6875rem;
+		margin-bottom: 40px;
 	}
 
 	.section-blog .section-header {
@@ -2203,7 +2203,7 @@ input[type="submit"] {
 
 	.slick-slide .text-box p {
 		line-height: 25px;
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.differences-list {
