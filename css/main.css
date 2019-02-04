@@ -1502,7 +1502,7 @@ input[type="submit"] {
 .section-enfors {
 	width: 50%;
 	position: absolute;
-	top: -50px;
+	top: -20px;
 	right: 10px;
 }
 
@@ -1525,7 +1525,7 @@ input[type="submit"] {
 	display: -ms-flexbox;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	margin: 0 30px 20px 0;
+	margin: 0 30px 30px 0;
 }
 
 .product-list .card-header .title {
@@ -1569,7 +1569,7 @@ input[type="submit"] {
 	font-style: normal;
 	font-weight: normal;
 	line-height: 22px;
-	font-size: 14px;
+	font-size: 15px;
 	
 	color: rgba(0, 0, 0, 0.75);
 	
@@ -1717,7 +1717,7 @@ input[type="submit"] {
 }
 
 .post-box {
-	padding-bottom: .9375rem;
+	padding: 30px;
 }
 
 .post-box .post-title {
@@ -1832,6 +1832,14 @@ input[type="submit"] {
 	h5,
 	.h5 {
 		font-size: 1rem;
+	}
+
+	.section-enfors {
+		top: -30px;
+	}
+
+	.slick-track .slick-slide {
+		padding-right: 1.5625rem;
 	}
 
 	.slick-slider .title {
@@ -1994,6 +2002,7 @@ input[type="submit"] {
 	}
 
 	.post-box {
+		padding: 30px;
 		padding-bottom: 1.25rem;
 	}
 
@@ -2036,6 +2045,10 @@ input[type="submit"] {
 
 	.display-1 {
 		font-size: 3.3125rem;
+	}
+
+	.section-enfors {
+		top: -40px;
 	}
 
 	.slick-slider .title {
@@ -2121,6 +2134,10 @@ input[type="submit"] {
 }
 
 @media (min-width: 1200px) {
+	.section-enfors {
+		top: -50px;
+	}
+
 	.slick-slider .title {
 		line-height: 77px;
 		font-size: 64px;	
@@ -2197,10 +2214,6 @@ input[type="submit"] {
 		float: left;
 	}
 
-	.slick-track .slick-slide {
-		padding-right: 1.5625rem;
-	}
-
 	.slick-slide .text-box p {
 		line-height: 25px;
 		font-size: 16px;
@@ -2221,10 +2234,6 @@ input[type="submit"] {
 		font-size: 36px;
 	}
 	
-	.product-list > li {
-		width: 29.599%;
-	}
-
 	.post-holder .img-holder {
 		height: 294px;
 	}
