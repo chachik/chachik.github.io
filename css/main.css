@@ -691,6 +691,7 @@ th {
 .nav,
 .differences-list,
 .product-list,
+.partner-list,
 .product-list .card-body .list,
 .social-network {
 	margin: 0;
@@ -736,7 +737,6 @@ img {
 	padding-right: 30px;
 	width: 100%;
 	max-width: 1280px;
-	margin-bottom: 36px;
 }
 
 h1,
@@ -1049,7 +1049,7 @@ input[type="submit"] {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 .logo {
@@ -1335,6 +1335,10 @@ input[type="submit"] {
 	color: #fff;
 }
 
+.section-contact {
+	background: rgba(229, 229, 229, 0.2);
+}
+
 .section-contact .contact-form {
 	width: 50%;
 	float: left;
@@ -1369,6 +1373,7 @@ input[type="submit"] {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+	margin-bottom: 30px;
 }
 
 .jumbotron .text-wrap {
@@ -1417,7 +1422,7 @@ input[type="submit"] {
 }
 
 .slick-arrow:hover:before {
-	color: #267f67;
+	color: #FFA800;
 }
 
 .slick-arrow:before {
@@ -1596,6 +1601,88 @@ input[type="submit"] {
 }
 
 .product-list .card-footer {
+	margin-bottom: 30px;
+}
+
+.partner-list {
+	overflow: hidden;
+	list-style: none;
+	position: relative;
+}
+
+.partner-list-header {
+	margin-bottom: 10px;
+}
+
+.partner-list-body {
+	margin-bottom: 20px;
+}
+
+.partner-list .card-header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	margin: 0 30px 30px 0;
+}
+
+.partner-list .card-header .title {
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 27px;
+	font-size: 24px;
+}
+
+.partner-list .card-header .subtitle {
+	line-height: 1.867;
+	font-size: .875rem;
+}
+
+.partner-list .card-header,
+.partner-list .card-body {
+	position: relative;
+}
+
+.partner-list .card-body:after {
+	background: #959595;
+}
+
+.partner-list .card-body{
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 25px;
+	font-size: 14px;
+	
+	color: #000000;
+	
+	opacity: 0.75;
+
+	margin-right: 10px;
+}
+
+.partner-list .card-body .list {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 22px;
+	font-size: 15px;
+	
+	color: rgba(0, 0, 0, 0.75);
+	
+	list-style: none inside url("../images/bullet.svg");
+}
+
+.partner-list .text-holder {
+	width: 95%;
+	color: #7c7c7c;
+	line-height: 1.75;
+	letter-spacing: .06em;
+	margin: 0 auto .9375rem;
+}
+
+.partner-list .card-footer {
 	margin-bottom: 30px;
 }
 
@@ -1839,7 +1926,7 @@ input[type="submit"] {
 	}
 
 	.slick-track .slick-slide {
-		padding-right: 1.5625rem;
+		padding: 0 0.78125rem;
 	}
 
 	.slick-slider .title {
@@ -2001,6 +2088,42 @@ input[type="submit"] {
 		margin-bottom: 0;
 	}
 
+	.partner-list {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+
+	.partner-list > li {
+		width: 32%;
+	}
+
+	.partner-list .card-header .title {
+		line-height: 33px;
+		font-size: 32px;
+	}
+
+	.partner-list .card-header .subtitle {
+		font-size: .9375rem;
+	}
+
+	.partner-list .price-header {
+		margin-bottom: 17px;
+	}
+
+	.partner-list .text-holder {
+		margin-bottom: 1.5rem;
+	}
+
+	.partner-list .card-footer {
+		position: absolute;
+		bottom: 0;
+		margin-bottom: 0;
+	}
+
 	.post-box {
 		padding: 30px;
 		padding-bottom: 1.25rem;
@@ -2112,7 +2235,7 @@ input[type="submit"] {
 
 	.jumbotron .container {
 		min-height: 650px;
-		margin-bottom: 36px;
+		margin-bottom: 40px;		
 	}
 
 	.slick-arrow:before {
@@ -2199,13 +2322,16 @@ input[type="submit"] {
 		margin-bottom: 40px;
 	}
 
+	.section-partners .section-header {
+		margin-bottom: 40px;
+	}
+
 	.section-blog .section-header {
 		margin-bottom: 4.4375rem;
 	}
 
 	.section-contact {
 		padding-top: 5.4375rem;
-		background: rgba(229, 229, 229, 0.2);
 	}
 
 	.section-contact .section-header {
@@ -2233,7 +2359,12 @@ input[type="submit"] {
 		line-height: 40px;
 		font-size: 36px;
 	}
-	
+
+	.partner-list .card-header .title {
+		line-height: 40px;
+		font-size: 36px;
+	}
+
 	.post-holder .img-holder {
 		height: 294px;
 	}
