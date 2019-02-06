@@ -57,7 +57,7 @@ summary {
 }
 
 #section-7 h2 {
-	margin: 0;
+	margin: 0 15px 0 0;
 }
 
 .right-btn {
@@ -117,6 +117,25 @@ summary {
 	font-size: 12px;
 
 	color: #000000;
+}
+
+.cube {
+	position: absolute;
+}
+
+.cube1 {
+	right: 30%;
+	top: -40px;
+}
+
+.cube2 {
+	right: 15%;
+	top: 10px;
+}
+
+.cube3 {
+	right: 10%;
+	top: 150px;
 }
 
 .left-part {
