@@ -124,18 +124,18 @@ summary {
 }
 
 .cube1 {
-	right: 30%;
+	right: 5%;
 	top: -40px;
 }
 
 .cube2 {
-	right: 15%;
-	top: 10px;
+	right: 10%;
+	top: 32%;
 }
 
 .cube3 {
 	right: 10%;
-	top: 150px;
+	top: 70%;
 }
 
 .left-part {
@@ -1549,7 +1549,7 @@ input[type="submit"] {
 	display: -ms-flexbox;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	margin: 0 30px 30px 0;
+	margin: 30px 30px 15px 0;
 }
 
 .product-list .card-header .title {
@@ -1585,7 +1585,7 @@ input[type="submit"] {
 	
 	opacity: 0.75;
 
-	margin-right: 10px;
+	margin-right: 100px;
 }
 
 .product-list .card-body .list {
@@ -1699,10 +1699,6 @@ input[type="submit"] {
 	line-height: 1.75;
 	letter-spacing: .06em;
 	margin: 0 auto .9375rem;
-}
-
-.partner-list .card-footer {
-	margin-bottom: 30px;
 }
 
 .social-network {
@@ -2084,6 +2080,10 @@ input[type="submit"] {
 		width: 32%;
 	}
 
+	.product-list .card-header {
+		margin: 0 30px 30px 0;
+	}
+
 	.product-list .card-header .title {
 		line-height: 33px;
 		font-size: 32px;
@@ -2137,10 +2137,8 @@ input[type="submit"] {
 		margin-bottom: 1.5rem;
 	}
 
-	.partner-list .card-footer {
-		position: absolute;
-		bottom: 0;
-		margin-bottom: 0;
+	.product-list .card-body{
+		margin-right: 10px;
 	}
 
 	.post-box {
@@ -2156,7 +2154,21 @@ input[type="submit"] {
 	.section-dots {
 		width: 45%;
 	}
+
+	.cube1 {
+		right: 30%;
+		top: -40px;
+	}
 	
+	.cube2 {
+		right: 10%;
+		top: 10px;
+	}
+	
+	.cube3 {
+		right: 5%;
+		top: 150px;
+	}	
 }
 
 @media (min-width: 1024px) {
@@ -2245,7 +2257,7 @@ input[type="submit"] {
 	}
 
 	.section {
-		padding: 3.125rem 0;
+		padding: 6rem 0 3rem 0;
 	}
 
 	.section-about-us .text-box {
@@ -2403,6 +2415,14 @@ input[type="submit"] {
 	.section-dots {
 		width: 54.7%;
 	}
+
+	.cube2 {
+		right: 15%;
+	}
+	
+	.cube3 {
+		right: 10%;
+	}		
 }
 
 @media (min-width: 1423px) {
