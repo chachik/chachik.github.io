@@ -56,13 +56,12 @@ summary {
 	display: block;
 }
 
-#section-7 h2 {
+#section-7 h2:first-child {
 	margin: 0 15px 0 0;
 }
 
 .right-btn {
-	float: right;
-	padding-bottom: 20px;
+	visibility: hidden;
 }
 
 .blog-footer {
@@ -900,7 +899,7 @@ input[type="tel"],
 input[type="email"],
 input[type="search"],
 input[type="password"] {
-	height: 50px;
+	height: 27px;
 }
 
 textarea {
@@ -1000,6 +999,7 @@ textarea {
 .footer-top input {
 	border: 0.25px solid #FFA800;
 	box-sizing: border-box;	
+	width: 300px;
 }
 
 button,
@@ -1959,6 +1959,14 @@ input[type="submit"] {
 		line-height: 39px;
 	}	
 
+	input[type="text"],
+	input[type="tel"],
+	input[type="email"],
+	input[type="search"],
+	input[type="password"] {
+		height: 39px;
+	}
+
 	.dot-img {
 		margin-left: 2px;
 		width: 11px;
@@ -2221,6 +2229,18 @@ input[type="submit"] {
 		top: 18px;
 	}
 
+	.section-contact .section-header {
+		margin-bottom: 2.375rem;
+		width: 50%;
+		float: left;
+	}
+	
+	.right-btn {
+		float: right;
+		padding-bottom: 20px;
+		visibility: visible;
+	}
+
 	.form-group {
 		line-height: 2.458;
 		font-size: 1.5rem;
@@ -2312,6 +2332,18 @@ input[type="submit"] {
 		font-size: 14px;	
 	}
 	
+	input[type="text"],
+	input[type="tel"],
+	input[type="email"],
+	input[type="search"],
+	input[type="password"] {
+		height: 50px;
+	}
+
+	.footer-top input {
+		width: 400px;
+	}
+
 	.dot-img {
 		margin-left: 5px;
 		width: 15px;
@@ -2367,12 +2399,6 @@ input[type="submit"] {
 
 	.section-contact {
 		padding-top: 5.4375rem;
-	}
-
-	.section-contact .section-header {
-		margin-bottom: 2.375rem;
-		width: 50%;
-		float: left;
 	}
 
 	.slick-slide .text-box p {
