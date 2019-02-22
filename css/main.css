@@ -170,6 +170,28 @@ summary {
 	font-size: 10px;
 }
 
+.section-service-details .left-part {
+	width: 40%;
+}
+
+.section-service-details .title{
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 36px;
+	font-size: 34px;
+}
+
+.section-service-details .list{
+	margin: 0 0 30px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 28px;
+	font-size: 18px;
+	opacity: 0.75;
+}
+
 .blog-footer div:last-child a {
 	float: right;
 	padding-right: 1.5625rem;
@@ -1357,8 +1379,9 @@ input[type="submit"] {
 }
 
 .section-about-us .text-box {
-	column-count: 3;
-	column-gap: 50px;
+	float: left;
+	width: 30%;
+	margin-right: 30px;
 
 	font-family: Heebo;
 	font-style: normal;
@@ -1366,11 +1389,27 @@ input[type="submit"] {
 	line-height: 25px;
 }
 
+.details-header{
+	width: 30%
+}
+
+.details-body{
+	width: 70%
+}
+
 .section-blog {
 	background: #041F45;
 }
 
 .section-blog .section-header .title {
+	color: #fff;
+}
+
+.section-service-details {
+	background: #041F45;
+}
+
+.section-service-details .section-header .title {
 	color: #fff;
 }
 
@@ -1546,7 +1585,7 @@ input[type="submit"] {
 .section-enfors {
 	width: 50%;
 	position: absolute;
-	top: -20px;
+	top: -30px;
 	right: 10px;
 }
 
@@ -1957,7 +1996,7 @@ input[type="submit"] {
 	}
 
 	.section-enfors {
-		top: -30px;
+		top: -40px;
 	}
 
 	.slick-track .slick-slide {
@@ -2234,7 +2273,7 @@ input[type="submit"] {
 	}
 
 	.section-enfors {
-		top: -40px;
+		top: -60px;
 	}
 
 	.slick-slider .title {
@@ -2359,7 +2398,7 @@ input[type="submit"] {
 
 @media (min-width: 1200px) {
 	.section-enfors {
-		top: -50px;
+		top: -100px;
 	}
 
 	.slick-slider .title {
@@ -2440,6 +2479,10 @@ input[type="submit"] {
 	}
 
 	.section-blog .section-header {
+		margin-bottom: 4.4375rem;
+	}
+
+	.section-service-details .section-header {
 		margin-bottom: 4.4375rem;
 	}
 
