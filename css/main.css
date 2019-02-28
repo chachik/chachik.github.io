@@ -94,7 +94,7 @@ summary {
 	font-style: normal;
 	font-weight: normal;
 	line-height: 25px;
-	font-size: 14px;
+	font-size: 15px;
 
 	margin: 20px 20px 20px 0;
 
@@ -178,12 +178,12 @@ summary {
 	width: 100%;
 }
 
-.section-service-details .title{
+.section-service-details .subtitle{
 	font-family: Kanit;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 36px;
-	font-size: 34px;
+	line-height: 27px;
+	font-size: 24px;
 }
 
 .section-service-details .list{
@@ -191,8 +191,8 @@ summary {
 	font-family: Lato;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 28px;
-	font-size: 18px;
+	line-height: 25px;
+	font-size: 16px;
 	opacity: 0.75;
 }
 
@@ -927,7 +927,7 @@ input[type="password"],
 textarea {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	box-sizing: border-box;
-	width: 400px;
+	width: 500px;
 	margin-bottom: 10px;
 
 	padding-left: 20px;
@@ -1642,12 +1642,16 @@ input[type="submit"] {
 	font-style: normal;
 	font-weight: normal;
 	line-height: 25px;
-	font-size: 14px;
+	font-size: 15px;
 	
 	color: #000000;
 	
 	opacity: 0.75;
 
+	width: 100%;
+}
+
+.section-product .product-list .card-body{
 	margin-right: 100px;
 }
 
@@ -2349,6 +2353,11 @@ input[type="submit"] {
 		font-size: 32px;
 	}
 
+	.section-service-details .subtitle{
+		line-height: 33px;
+		font-size: 32px;
+	}
+
 	.section {
 		padding: 4rem 0 3rem 0;
 	}
@@ -2411,12 +2420,7 @@ input[type="submit"] {
 	
 	.section-service-details .list{
 		margin: 0 0 30px;
-		font-famiy: Lato;
-		font-style: normal;
-		font-weight: normal;
 		line-height: 28px;
-		font-size: 18px;
-		opacity: 0.75;
 	}
 }
 
@@ -2450,7 +2454,7 @@ input[type="submit"] {
 	}
 
 	.footer-top input {
-		width: 400px;
+		width: 380px;
 	}
 
 	.dot-img {
@@ -2530,6 +2534,11 @@ input[type="submit"] {
 	}
 
 	.product-list .card-header .title {
+		line-height: 40px;
+		font-size: 36px;
+	}
+
+	.section-service-details .subtitle{
 		line-height: 40px;
 		font-size: 36px;
 	}
@@ -2706,5 +2715,18 @@ input[type="submit"] {
 
 	.slick-arrow {
 		display: none !important;
+	}
+
+	input[type="text"],
+	input[type="tel"],
+	input[type="email"],
+	input[type="search"],
+	input[type="password"],
+	textarea {
+		width: 350px;
+	}
+
+	.footer-top input {
+		width: 250px;
 	}
 }
