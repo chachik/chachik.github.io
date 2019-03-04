@@ -56,10 +56,6 @@ summary {
 	display: block;
 }
 
-#section-7 h2:first-child {
-	margin: 0 15px 0 0;
-}
-
 .right-btn {
 	visibility: hidden;
 }
@@ -1333,7 +1329,7 @@ input[type="submit"] {
 	font-size: 36px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;	
-	display: inline-block;
+	display: inline;
 }
 
 .slick-slider .title {
