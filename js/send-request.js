@@ -5,6 +5,10 @@ function validEmail(email) {
   return re.test(email);
 };
 
+function contactUs() {
+  $('#email').focus();
+}
+
 function validateHuman(honeypot) {
   if (honeypot) {  //if hidden form filled up
     console.log("Robot Detected!");
@@ -76,6 +80,7 @@ function sendRequest() {
       // Show modal
       var modal = document.getElementById('myModal');
       modal.style.display = "block";
+      $('#description').val('');
 
       setExecuting(false);
       return;
