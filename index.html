@@ -346,15 +346,23 @@ layout: default
 						<img class="dot-img" src="images/dot.svg">
 					</header>
 					<div class="contact-form">
-						<input id="email" type="text" placeholder="Your e-mail">
-						<input id="name" type="text" placeholder="Your full name">
-						<textarea id="description" placeholder="Tell us more about how we can help you"></textarea>
-						<button class="btn btn-default" type='submit'>Send</button>
+						<span id="email-validation" class="field-validation-error">Please provide a valid email.</span>
+						<input id="email" type="text" placeholder="Your e-mail" oninput="validateInput()">
+						<input id="name" type="text" placeholder="Your full name" oninput="validateInput()">
+						<textarea id="description" placeholder="Tell us more about how we can help you" oninput="validateInput()"></textarea>
+						<button class="btn btn-default" id="send" onclick="sendRequest()" disabled="true">Send</button>
 					</div>
 					<div>
 						<a class="right-btn" href="#section-1"><img src="images/go-up.svg"></a>
 					</div>
 					<div style="clear: both;"></div>
+				</div>
+				<div id="myModal" class="modal">
+					<div class="modal-content">
+					<span class="close">&times;</span>
+					<p>Thanks!</p>
+					<p>We'll get in touch with you soon. ;)</p>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -368,11 +376,11 @@ layout: default
 						<p>www.enfors.tech</p>
 						<p>Copyright &copy;ENFORS. Engineering for Startups. 2018</p>
 					</div>
-					<div class="right-part-mobile">
+					<!-- <div class="right-part-mobile">
 						<p>Subscribe to our news</p>
 						<input id="subscribtion-email" type="text" placeholder="e-mail">
 						<button class="btn btn-default">Subscribe</button>
-					</div>
+					</div> -->
 					<div style="clear: both;"></div>
 					<div class="bottom-part-mobile">
 						<div class="left-part">
