@@ -55,11 +55,12 @@ function getFormData() {
 function sendRequest() {
   var data = getFormData();
 
-  /* OPTION: Remove this comment to enable SPAM prevention, see README.md
-  if (validateHuman(data.honeypot)) {  //if form is filled, form will not be submitted
+  // SPAM prevention
+  var additional = $('#additional').val()
+  if (additional != null && additional !== '') {
     return false;
   }
-  */
+
 
   if (data.email && !validEmail(data.email)) {   // if email is not valid show error
     var invalidEmail = form.querySelector(".email-invalid");
