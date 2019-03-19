@@ -5,19 +5,6 @@ function validEmail(email) {
   return re.test(email);
 };
 
-function contactUs() {
-  $('#email').focus();
-}
-
-function validateHuman(honeypot) {
-  if (honeypot) {  //if hidden form filled up
-    console.log("Robot Detected!");
-    return true;
-  } else {
-    console.log("Welcome Human!");
-  }
-};
-
 function validateInput() {
   var email = $('#email').val();
   var name = $('#name').val();
