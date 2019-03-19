@@ -1515,7 +1515,11 @@ input[type="submit"] {
 		-webkit-box-pack: justify;
 		-ms-flex-pack: justify;
 		justify-content: space-between;
-		padding-bottom: 80px;
+		padding-bottom: 60px;
+	}
+
+	#section-3 .product-list {
+		padding-bottom: 100px;
 	}
 
 	.product-list > li {
@@ -1660,7 +1664,7 @@ input[type="submit"] {
 	}
 
 	.footer-top {
-		padding: 1.875rem 0 4rem;
+		padding: 1.875rem 0 2rem;
 	}
 
 	.section-header {
@@ -1788,7 +1792,7 @@ input[type="submit"] {
 	}
 
 	.section-about-us {
-		padding: 5.1875rem 0 7.5625rem;
+		padding: 5rem 0 6rem;
 	}
 
 	.section-about-us .section-header {
