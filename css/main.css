@@ -1008,6 +1008,10 @@ input[type="submit"] {
 	color: #FFFFFF;
 }
 
+.blog .slick-slider .title{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
 
 .dark-section{
 	color: #FFFFFF !important;
@@ -1088,6 +1092,11 @@ input[type="submit"] {
 	-ms-flex-pack: center;
 	justify-content: center;
 	margin-bottom: 30px;
+}
+
+.blog .jumbotron .container {
+	min-height: 100px;
+	margin-bottom: 10px;
 }
 
 .slick-slider {
