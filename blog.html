@@ -1,0 +1,22 @@
+---
+layout: blog
+blog: true
+title: ENFORS Blog
+baseurl: /blog/
+---
+
+<!-- Posts
+================================================== -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+
+            {% for post in site.posts %}
+
+            {% include featuredbox.html %}
+
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
