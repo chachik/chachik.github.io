@@ -236,6 +236,8 @@ a {
 a:active,
 a:hover {
 	outline: 0;
+	text-decoration: none;
+	color: #FFA800;
 }
 
 abbr[title] {
@@ -573,7 +575,7 @@ img {
 	max-width: none;
 }
 
-.container {
+.my-container {
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 30px;
@@ -1008,6 +1010,16 @@ input[type="submit"] {
 	color: #FFFFFF;
 }
 
+.blog .slick-slider .title{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.blog .slick-slider h2:first-child {
+	margin-top: 40px;
+	margin-bottom: 0px;
+	display: block;
+}
 
 .dark-section{
 	color: #FFFFFF !important;
@@ -1058,7 +1070,7 @@ input[type="submit"] {
 	float: left;
 }
 
-.jumbotron {
+.my-jumbotron {
 	color: #fff;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1073,7 +1085,7 @@ input[type="submit"] {
 	z-index: 100;
 }
 
-.jumbotron .container {
+.my-jumbotron .my-container {
 	padding-top: .625rem;
 	padding-bottom: .625rem;
 	display: -webkit-box;
@@ -1088,6 +1100,11 @@ input[type="submit"] {
 	-ms-flex-pack: center;
 	justify-content: center;
 	margin-bottom: 30px;
+}
+
+.blog .my-jumbotron .my-container {
+	min-height: 100px;
+	margin-bottom: 10px;
 }
 
 .slick-slider {
@@ -1690,7 +1707,7 @@ input[type="submit"] {
 		margin-right: 30px;
 	}
 
-	.jumbotron .container {
+	.my-jumbotron .my-container {
 		margin-bottom: 40px;		
 	}
 
