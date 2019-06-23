@@ -10,7 +10,7 @@ featured: true
 hidden: true
 blog: true
 post: true
-comments: false
+comments: true
 permalink: /blog/:categories/:year/:month/:day/:title:output_ext
 sitemap:
     priority: 1
