@@ -11,9 +11,11 @@ hidden: true
 blog: true
 post: true
 comments: true
-permalink: /blog/:categories/:year/:month/:day/:title:output_ext
+permalink: /blog/:year/:month/:day/:title:output_ext
 sitemap:
     priority: 1
+discussion_id: software-development-for-founder
+redirect_from: /blog/software%20development%20for%20founders/2019/06/22/software-development-for-founder.html
 ---
 
 There are myriad ways to implement even the smallest software development task. Each available approach has its pros and cons — and its cost, which can vary from almost nothing to a fortune.

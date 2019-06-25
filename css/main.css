@@ -1009,17 +1009,6 @@ input[type="submit"] {
 	color: #FFFFFF;
 }
 
-.blog .slick-slider .title{
-	margin-top: 0px;
-	margin-bottom: 30px;
-}
-
-.blog .slick-slider h2:first-child {
-	margin-top: 40px;
-	margin-bottom: 0px;
-	display: block;
-}
-
 .dark-section{
 	color: #FFFFFF !important;
 }
@@ -1101,9 +1090,9 @@ input[type="submit"] {
 	margin-bottom: 30px;
 }
 
-.blog .my-jumbotron .my-container {
-	min-height: 100px;
-	margin-bottom: 10px;
+.notfound .my-jumbotron .my-container {
+	min-height: 50px;
+	margin-bottom: 30px;
 }
 
 .slick-slider {
