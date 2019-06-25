@@ -1,2 +1,8 @@
 baseurl: 
 exclude: ['README.md']
+
+talkyard_server_url: https://comments-for-enfors-tech.talkyard.net
+talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
+
+plugins:
+  - jekyll-redirect-from
