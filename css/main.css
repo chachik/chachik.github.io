@@ -177,7 +177,7 @@ summary {
 }
 
 .infinity {
-	background-image: url("../images/infinity.svg");
+	background-image: url("../images/infinity.png");
     background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -925,7 +925,6 @@ input[type="submit"] {
 	font-family: Kanit;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 27px;
 	font-size: 14px;
 	text-transform: uppercase;
 	
