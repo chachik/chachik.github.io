@@ -86,3 +86,7 @@ Make a habit of generating a list of options differentiated by time, cost, and q
 *	Cut corners and make changes extremely fast when searching for market fit.
 *	Improve the development process and provide a stable flow of new features when growing.
 *	Upgrade the platform architecture and boost the platform quality to scale globally.
+
+
+**PS**: 
+The startup evolution is not always so straightforward. Moving from one stage to another requires time and efforts. A successful MVP on the **Seed** stage may not work for a broader audience on the **Tree** phase. Or an efficient solution on the **Tree** phase may not scale on the new market. All those cases lead back to the **Seed**, and the development priority must be changed accordingly.
