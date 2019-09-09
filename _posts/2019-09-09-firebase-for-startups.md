@@ -15,7 +15,7 @@ permalink: /blog/:year/:month/:day/:title:output_ext
 sitemap:
     priority: 1
 discussion_id: firebase-for-startups
-redirect_from: /blog/technologies%20for%20for%20startups/2019/09/09/firebase-for-startups.html
+redirect_from: /blog/technologies%20for%20startups/2019/09/09/firebase-for-startups.html
 ---
 
 As a serverless platform, Firebase provides a wast set of tools that speed up the product launch and market research while saving limited resources at the beginning. Thus, that is an excellent choice on the Seed stage.
