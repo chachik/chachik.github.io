@@ -36,6 +36,7 @@ It's useless to invest much money in quality at this phase. In fact, paying for 
  
 **Guidelines**:
 - Search for the fastest way to try your ideas. "Quick and dirty" is the best motto for this stage.
+- Research available tools and services. Try to use them to pilot your idea.
 - Be warned when you hear talk of solution quality, performance, scalability, and other forms of rocket science, take some notes as not functional requirements for the future and forget about them for now.
 - Watch yourself, as you’ll always believe that your current idea will definitely succeed and tend to invest in good quality too early.
 - After finding your clients and moving to the next stage, be ready to hear from newcomers how fragile your code is. They will often mutter about how great it would have been to use one architecture approach or another from the very beginning. It’s better to start in that way than to burn out all the money and create a perfect product that nobody needs.
