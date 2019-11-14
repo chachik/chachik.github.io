@@ -6,6 +6,7 @@ tags: [software development, startup, mvp, native apps, hybrid apps, chatbots, a
 image: images/mvp_for_mobile.jpg
 image_small: images/mvp_for_mobile_small.jpg
 description: "MVP for mobile."
+# author: alex
 featured: true
 hidden: true
 blog: true

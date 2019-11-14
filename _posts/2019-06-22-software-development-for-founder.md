@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "What the non-technical founder must know about software development"
-categories: [ Software development for founders ]
+categories: [ Software development strategy for startups ]
 tags: [software development, founder, startup]
 image: images/software-development-for-founder.jpg
 image_small: images/software-development-for-founder_small.jpg
 description: "Software development strategy for the startup founder."
+# author: alex
 featured: true
 hidden: true
 blog: true

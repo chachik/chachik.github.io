@@ -6,6 +6,7 @@ tags: [software development, startup, mvp]
 image: images/software-development-for-mvp.jpg
 image_small: images/software-development-for-mvp_small.jpg
 description: "Software development for piloting an idea."
+# author: alex
 featured: true
 hidden: true
 blog: true

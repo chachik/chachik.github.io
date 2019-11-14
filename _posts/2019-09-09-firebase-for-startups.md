@@ -6,6 +6,7 @@ tags: [software development, startup, firebase]
 image: images/firebase.png
 image_small: images/firebase_small.png
 description: "Firebase tips for startups."
+# author: alex
 featured: true
 hidden: true
 blog: true
@@ -29,5 +30,7 @@ And after finding the niche and starting growing, there are **two possible strat
     * Budget growing costs with a risk buffer;
 
     * Thoroughly test the efficiency of client-to-server, server-to-server communications, as even a small bug can lead to useless data transferring loops and exponential growth of costs.
+    
+    
     
     * Still, use option one if your platform works with photo and video content.
