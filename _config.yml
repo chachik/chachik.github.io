@@ -6,3 +6,14 @@ talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
 
 plugins:
   - jekyll-redirect-from
+
+# Authors
+authors:
+  alex:
+    name: Alexander
+    display_name: Alexander Nechyporenko
+    avatar: images/alexander-n.jpg
+    email: alex@enfors.tech
+    web: https://www.linkedin.com/in/nechyporenko
+    # twitter: https://twitter.com/wowthemesnet
+    # description: "ENFORS expert."

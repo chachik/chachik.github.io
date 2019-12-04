@@ -525,18 +525,20 @@ function initSlickCarousel() {
 			calculateSize: function(i) {
 				var item = items[i];
 
-				item.height = Math.max(item.$el.outerHeight(), winProps.height);
-				item.width = item.$el.outerWidth();
-				item.topOffset = item.$el.offset().top;
+				if (item.$el.attr('id') == "section-1") {
+					item.height = Math.max(item.$el.outerHeight(), winProps.height);
+					item.width = Math.min(item.$el.outerWidth(), 1280);
+					item.topOffset = item.$el.offset().top;
 
-				var styles = this.getDimensions({
-					imageRatio: item.imageRatio,
-					itemWidth: item.width,
-					itemHeight: item.height
-				});
+					var styles = this.getDimensions({
+						imageRatio: item.imageRatio,
+						itemWidth: item.width,
+						itemHeight: item.height
+					});
 
-				if (item.$el.attr('id') == "section-2") {
-					backgroundSize: Math.round(styles.width) + 'px ' + Math.round(styles.height) + 'px'
+					item.$el.css({
+						backgroundSize: Math.round(styles.width) + 'px ' + Math.round(styles.height) + 'px'
+					});
 				}
 				
 				this.calculateScroll(i);
@@ -557,10 +559,6 @@ function initSlickCarousel() {
 			getDimensions: function(data) {
 				var slideHeight = data.itemWidth / data.imageRatio;
 
-				if (slideHeight < data.itemHeight) {
-					slideHeight = data.itemHeight;
-					data.itemWidth = slideHeight * data.imageRatio;
-				}
 				return {
 					width: data.itemWidth,
 					height: slideHeight,
@@ -604,6 +602,12 @@ function initSlickCarousel() {
 							backgroundRepeat: 'no-repeat',
 							backgroundAttachment: !isTouchDevice ? 'fixed' : 'scroll',
 							backgroundSize: 'cover'
+						});
+					} else if ($el.attr('id') == "section-1"){
+						$el.css({
+							backgroundImage: 'url(' + $image.attr('src') + '), linear-gradient(to right, #0B0F23, #0B1026)',
+							backgroundRepeat: 'repeat',
+							backgroundAttachment: !isTouchDevice ? 'fixed' : 'scroll',
 						});
 					} else {
 						$el.css({
