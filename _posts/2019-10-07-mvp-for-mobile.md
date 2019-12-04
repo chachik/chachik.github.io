@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What is the fastest way to create MVP for mobile?"
+short_title:  "The fastest way to create a mobile MVP"
 categories: [ Technologies for startups ]
 tags: [software development, startup, mvp, native apps, hybrid apps, chatbots, adaptive web]
 image: images/mvp_for_mobile.jpg
@@ -16,7 +17,7 @@ permalink: /blog/:year/:month/:day/:title:output_ext
 sitemap:
     priority: 1
 discussion_id: mvp-for-mobile
-redirect_from: /blog/technologies%20for%20startups/2019/10/07/mvp-for-mobile.html
+landing: true
 ---
 
 By all means, the most powerful approach for both iOS and Android is using their **native technologies**. But that way requires the most time and effort. Hence it's not for MVP.

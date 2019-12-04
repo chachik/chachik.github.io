@@ -16,7 +16,7 @@ permalink: /blog/:year/:month/:day/:title:output_ext
 sitemap:
     priority: 1
 discussion_id: software-development-for-mvp
-redirect_from: /blog/software%20development%20for%20founders/2019/09/28/software-development-for-mvp.html
+landing: true
 ---
 
 As engineers, we strive to develop our professional skills all the time. So we eager to think carefully, predict future needs in advance, build the most flexible implementation, apply sophisticated and trendy architecture patterns and approaches.

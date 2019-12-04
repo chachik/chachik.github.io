@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What the non-technical founder must know about software development"
+short_title:  "Development strategy for startups"
 categories: [ Software development strategy for startups ]
 tags: [software development, founder, startup]
 image: images/software-development-for-founder.jpg
@@ -16,7 +17,7 @@ permalink: /blog/:year/:month/:day/:title:output_ext
 sitemap:
     priority: 1
 discussion_id: software-development-for-founder
-redirect_from: /blog/software%20development%20for%20founders/2019/06/22/software-development-for-founder.html
+landing: true
 ---
 
 There are myriad ways to implement even the smallest software development task. Each available approach has its pros and cons — and its cost, which can vary from almost nothing to a fortune.
