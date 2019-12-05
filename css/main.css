@@ -1094,7 +1094,7 @@ input[type="submit"] {
 }
 
 .slick-slider .title:first-child {
-	margin-top: 100px;
+	margin-top: 60px;
 }
 
 .transp-title {
@@ -2270,6 +2270,12 @@ input[type="submit"] {
 		left: calc(100% + 25px);
 	}
 }
+
+@media only screen and (max-width:749px) {
+	.parallax-holder {
+	  background-attachment: inherit !important;
+	}
+  }
 
 @media (max-width: 767px) {
 	.header-holder {
