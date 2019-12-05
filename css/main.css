@@ -859,7 +859,7 @@ input[type="submit"] {
 }
 
 .parallax-holder {
-	background-attachment: fixed;
+	background-attachment: inherit !important;
 	background-repeat: no-repeat;
 }
 
@@ -1094,7 +1094,7 @@ input[type="submit"] {
 }
 
 .slick-slider .title:first-child {
-	margin-top: 60px;
+	margin-top: 600px;
 }
 
 .transp-title {
@@ -1635,6 +1635,10 @@ input[type="submit"] {
 	}}
 
 @media (min-width: 768px) {
+	.parallax-holder {
+		background-attachment: fixed;
+	}
+
 	h1,
 	.h1 {
 		font-size: 2.375rem;
@@ -2270,12 +2274,6 @@ input[type="submit"] {
 		left: calc(100% + 25px);
 	}
 }
-
-@media only screen and (max-width:749px) {
-	.parallax-holder {
-	  background-attachment: inherit !important;
-	}
-  }
 
 @media (max-width: 767px) {
 	.header-holder {
