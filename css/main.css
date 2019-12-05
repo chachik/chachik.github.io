@@ -38,7 +38,8 @@ summary {
 
 .step-header {
 	position: absolute;
-	max-width: 280px;
+	max-width: 290px;
+	padding-right: 10px;
 }
 
 .step-header span {
