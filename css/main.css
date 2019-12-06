@@ -858,11 +858,6 @@ input[type="submit"] {
 	border: none;
 }
 
-.parallax-holder {
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-}
-
 .parallax-holder .parallax-img {
 	width: auto;
 	height: auto;
@@ -870,7 +865,7 @@ input[type="submit"] {
 }
 
 .is-touch-device {
-	/* background-size: cover; */
+	background-size: cover;
 	background-position: 50% 50%;
 }
 
@@ -2277,10 +2272,6 @@ input[type="submit"] {
 }
 
 @media (max-width: 767px) {
-	.parallax-holder {
-		background-attachment: inherit !important;
-	  }
-	
 	.header-holder {
 		z-index: 0;
 		-webkit-box-align: center;
