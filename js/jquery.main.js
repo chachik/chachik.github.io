@@ -606,14 +606,14 @@ function initSlickCarousel() {
 					} else if ($el.attr('id') == "section-1"){
 						$el.css({
 							backgroundImage: 'url(' + $image.attr('src') + '), linear-gradient(to right, #0B0F23, #0B1026)',
-							backgroundRepeat: 'repeat',
+							backgroundRepeat: 'no-repeat',
 							backgroundAttachment: !isTouchDevice ? 'fixed' : 'scroll',
 						});
 					} else {
 						$el.css({
 							backgroundImage: 'url(' + $image.attr('src') + ')',
-							backgroundRepeat: 'repeat',
-							backgroundAttachment: !isTouchDevice ? 'fixed' : 'scroll',
+							backgroundRepeat: 'no-repeat',
+							backgroundAttachmepeatnt: !isTouchDevice ? 'fixed' : 'scroll',
 						});
 					}
 
