@@ -1598,6 +1598,11 @@ input[type="submit"] {
 }
 
 @media (min-width: 600px) {
+
+	.slick-slider .title:first-child {
+		margin-top: 70px;
+	}
+
 	.slick-slider .title {
 		line-height: 42px;
 		font-size: 36px;
@@ -2271,13 +2276,11 @@ input[type="submit"] {
 	}
 }
 
-@media (max-width:749px) {
-  .parallax {
-    background-attachment: inherit !important;
-  }
-}
-
 @media (max-width: 767px) {
+	.parallax-holder {
+		background-attachment: inherit !important;
+	  }
+	
 	.header-holder {
 		z-index: 0;
 		-webkit-box-align: center;
