@@ -17,3 +17,9 @@
 	min-height: 100px;
 	margin-bottom: 10px;
 }
+
+.article-post img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
