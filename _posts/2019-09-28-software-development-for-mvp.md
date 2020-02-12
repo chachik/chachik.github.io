@@ -16,7 +16,7 @@ permalink: /blog/:year/:month/:day/:title:output_ext
 sitemap:
     priority: 1
 discussion_id: software-development-for-mvp
-landing: true
+landing: false
 ---
 
 As engineers, we strive to develop our professional skills all the time. So we eager to think carefully, predict future needs in advance, build the most flexible implementation, apply sophisticated and trendy architecture patterns and approaches.
