@@ -41,4 +41,4 @@ And here are some **additional advice** for making that choice:
 
 ### Summary:
 
-For sure, some technologies better suits your requirements and more beneficial in the long term perspective. But bad tech decisions on the MVP stage is a problem you can fix later, even if those fixes may be expensive. The issue you cannot postpone is not having customers. Thus, chase fast and cheap ways to build MVP and research the market.
+For sure, some technologies better suits your requirements and more beneficial in the long term perspective. But bad tech decisions on the MVP stage is a problem you can fix later, even if those fixes may be expensive. Not having customers is an issue that you cannot postpone. Thus, chase fast and cheap ways to build MVP and research the market.
