@@ -117,7 +117,7 @@ Whereas the functional requirements define what a system is supposed to do, the 
 * Do you target the local market and have an operational window for supporting/upgrading activities during the night, or the platform must be available 24/7?
 * Do you think that some user interfaces must work exceptionally fast or reasonably fast is enough?
     
-The dev team must keep in mind those requirements from the very beginning and be ready to implement the necessary architectural patterns in proper time, though not spending much effort while searching for the market feet. [That article](/blog/2019/11/22/software-development-for-founder.html) describes in more detail why that is crucial.
+The dev team must keep in mind those requirements from the very beginning and be ready to implement the necessary architectural patterns in proper time, though not spending much effort while searching for the market fit. [That article](/blog/2019/11/22/software-development-for-founder.html) describes in more detail why that is crucial.
 
 > **Airbnb example:**
 > 
